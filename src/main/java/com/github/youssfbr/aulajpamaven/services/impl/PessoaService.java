@@ -6,21 +6,36 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import org.hibernate.jpa.HibernatePersistenceProvider;
 import org.springframework.stereotype.Service;
+
 import java.util.logging.Logger;
 @Service
 public class PessoaService implements IPessoaService {
-    private final HibernatePersistenceProvider provider = new HibernatePersistenceProvider();
-    private final EntityManagerFactory emf = provider.createEntityManagerFactory("com.github.youssfbr.aulajpamaven", null);
-    private final EntityManager em = emf.createEntityManager();
+    private static String unitName;
+    private static final HibernatePersistenceProvider provider = new HibernatePersistenceProvider();
+    private  EntityManagerFactory emf;
+    EntityManager em;
     private final Logger logger = Logger.getLogger(getClass().getName());
 
     @Override
     public void createPessoa(Pessoa pessoa) {
 
-        em.getTransaction().begin();
-        em.persist(pessoa);
-        em.getTransaction().commit();
+        try {
+            emf = provider.createEntityManagerFactory(unitName, null);
+            em = emf.createEntityManager();
 
-        logger.info("Pessoa salva com sucesso.");
+            em.getTransaction().begin();
+            em.persist(pessoa);
+            em.getTransaction().commit();
+
+
+            logger.info("Pessoa salva com sucesso.");
+        }
+        catch (Exception e) {
+            logger.warning(e.getMessage());
+        }
+        finally {
+            em.close();
+            emf.close();
+        }
     }
 }

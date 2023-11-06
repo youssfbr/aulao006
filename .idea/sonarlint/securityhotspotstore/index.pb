@@ -113,3 +113,5 @@ Q.idea/sonarlint/securityhotspotstore/c/1/c1b52fe7a69eb1972721fb062a91d4fc59eb45
 Ksrc/main/java/com/github/youssfbr/aulajpamaven/services/IPessoaService.java,d\d\dd28fbddf620047d7e68276913a5f8f28f4312ff
 
 Osrc/main/java/com/github/youssfbr/aulajpamaven/services/impl/PessoaService.java,2\9\297b3a0325992e3868603a399e665d132b2ca57a
+|
+Lsrc/main/java/com/github/youssfbr/aulajpamaven/config/PersistenceConfig.java,5\2\52bc67e0babf3f2e3fa567033a521c224e23ebeb

@@ -1,9 +1,8 @@
 
-t
-java:S2095"RUse try-with-resources or close this "EntityManagerFactory" in a "finally" clause.(ßÈáÂüÿÿÿÿ8Çƒı•º1
-g
-java:S2095"KUse try-with-resources or close this "EntityManager" in a "finally" clause.(ÇÌØ8Æƒı•º1
-G	java:S106'"+Replace this use of System.out by a logger.(ùàèü8ê‚ô•º1
-h
-java:S1128
-"KRemove this unused import 'org.hibernate.jpa.HibernatePersistenceProvider'.(—èŸŒ8å®Š–º1
+o
+java:S2095"RUse try-with-resources or close this "EntityManagerFactory" in a "finally" clause.(–Å´è8×±‘–º1
+m
+java:S2095"KUse try-with-resources or close this "EntityManager" in a "finally" clause.(œ¼Àüÿÿÿÿ8×±‘–º1
+G	java:S106("+Replace this use of System.out by a logger.(ùàèü8ê‚ô•º1
+^
+java:S1128	"<Remove this unused import 'jakarta.persistence.Persistence'.(ŸÖ¦µÿÿÿÿÿ8Û“–º1

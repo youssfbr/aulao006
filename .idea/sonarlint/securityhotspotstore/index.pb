@@ -115,3 +115,5 @@ Ksrc/main/java/com/github/youssfbr/aulajpamaven/services/IPessoaService.java,d\
 Osrc/main/java/com/github/youssfbr/aulajpamaven/services/impl/PessoaService.java,2\9\297b3a0325992e3868603a399e665d132b2ca57a
 |
 Lsrc/main/java/com/github/youssfbr/aulajpamaven/config/PersistenceConfig.java,5\2\52bc67e0babf3f2e3fa567033a521c224e23ebeb
+€
+Psrc/main/java/com/github/youssfbr/aulajpamaven/controllers/PessoaController.java,2\5\250e10b1ef3e2d524cd0d76952acf425f59a4a28

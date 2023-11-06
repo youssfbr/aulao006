@@ -22,15 +22,15 @@ public class Application implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Pessoa p1 = new Pessoa(null, "Alisson Youssf", "youssfbr@gmail.com");
-        Pessoa p2 = new Pessoa(null, "Carlos da Silva", "carlos@gmail.com");
-        Pessoa p3 = new Pessoa(null, "Joaquim Torres", "joaquim@gmail.com");
-        Pessoa p4 = new Pessoa(null, "Ana Maria", "ana@gmail.com");
-
-        pessoaService.createPessoa(p1);
-        pessoaService.createPessoa(p2);
-        pessoaService.createPessoa(p3);
-        pessoaService.createPessoa(p4);
+//        Pessoa p1 = new Pessoa(null, "Alisson Youssf", "youssfbr@gmail.com");
+//        Pessoa p2 = new Pessoa(null, "Carlos da Silva", "carlos@gmail.com");
+//        Pessoa p3 = new Pessoa(null, "Joaquim Torres", "joaquim@gmail.com");
+//        Pessoa p4 = new Pessoa(null, "Ana Maria", "ana@gmail.com");
+//
+//        pessoaService.createPessoa(p1);
+//        pessoaService.createPessoa(p2);
+//        pessoaService.createPessoa(p3);
+//        pessoaService.createPessoa(p4);
 
     }
 }

@@ -1,0 +1,16 @@
+
+R
+java:S1854
+"6Remove this useless assignment to local variable "p4".(ÙÃ‚&8€õµº1
+X
+java:S1854	"6Remove this useless assignment to local variable "p3".(ë£»úÿÿÿÿ8Üİ»º1
+X
+java:S1854"6Remove this useless assignment to local variable "p2".(êÀàôøÿÿÿÿ8ºı¶º1
+I
+java:S1481"'Remove this unused "p2" local variable.(êÀàôøÿÿÿÿ8“±·º1
+I
+java:S1481	"'Remove this unused "p3" local variable.(ë£»úÿÿÿÿ8”±·º1
+C
+java:S1481
+"'Remove this unused "p4" local variable.(ÙÃ‚&8‡¼º1
+L	java:S106"+Replace this use of System.out by a logger.(¨ô¢¨ıÿÿÿÿ8–Î¾º1

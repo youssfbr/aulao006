@@ -1,0 +1,6 @@
+
+o
+java:S2095"RUse try-with-resources or close this "EntityManagerFactory" in a "finally" clause.(êïì‚8ì†Š“º1
+g
+java:S2095"KUse try-with-resources or close this "EntityManager" in a "finally" clause.(ÇÌØ8ë†Š“º1
+G	java:S106"+Replace this use of System.out by a logger.(Ìí·Ü8Ñ‚€“º1

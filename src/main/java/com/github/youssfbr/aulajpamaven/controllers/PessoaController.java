@@ -2,18 +2,20 @@ package com.github.youssfbr.aulajpamaven.controllers;
 
 import com.github.youssfbr.aulajpamaven.dominio.Pessoa;
 import com.github.youssfbr.aulajpamaven.services.IPessoaService;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("pessoas")
+@RequestMapping("/pessoas")
 public class PessoaController {
     private final IPessoaService pessoaService;
 
     public PessoaController(IPessoaService pessoaService) {
         this.pessoaService = pessoaService;
+    }
+
+    @GetMapping("/{id}")
+    public Pessoa findById(@PathVariable Long id) {
+        return pessoaService.findById(id);
     }
 
     @PostMapping

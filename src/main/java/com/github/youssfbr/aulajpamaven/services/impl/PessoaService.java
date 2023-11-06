@@ -17,6 +17,22 @@ public class PessoaService implements IPessoaService {
     private final Logger logger = Logger.getLogger(getClass().getName());
 
     @Override
+    public Pessoa findById(Long id) throws RuntimeException {
+
+        emf = provider.createEntityManagerFactory(unitName, null);
+        em = emf.createEntityManager();
+
+        Pessoa pessoa = em.find(Pessoa.class, id);
+
+        if (pessoa == null) throw new RuntimeException("NOT FOUND with Id: " + id);
+
+        em.close();
+        emf.close();
+
+        return pessoa;
+    }
+
+    @Override
     public void createPessoa(Pessoa pessoa) {
 
         try {

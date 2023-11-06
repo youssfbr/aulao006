@@ -1,8 +1,0 @@
-
-o
-java:S2095"RUse try-with-resources or close this "EntityManagerFactory" in a "finally" clause.(–Ε΄θ8Χ±‘–Ί1
-m
-java:S2095"KUse try-with-resources or close this "EntityManager" in a "finally" clause.(Όΐόÿÿÿÿ8Χ±‘–Ί1
-G	java:S106("+Replace this use of System.out by a logger.(ωΰθό8κ‚τ•Ί1
-^
-java:S1128	"<Remove this unused import 'jakarta.persistence.Persistence'.(Φ¦µÿÿÿÿÿ8Ϋ“–Ί1

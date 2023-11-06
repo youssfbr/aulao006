@@ -109,3 +109,7 @@ G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f\0\f0
 Q.idea/sonarlint/securityhotspotstore/b/c/bc131dbb45b45af4f645556360779c20a7233b83,7\f\7f78f977a80b8d6810aaae8c29cde7515adec0e6
 Å
 Q.idea/sonarlint/securityhotspotstore/c/1/c1b52fe7a69eb1972721fb062a91d4fc59eb4592,5\5\55dce4fe873bb74193dc71c03875a3b5bb572790
+{
+Ksrc/main/java/com/github/youssfbr/aulajpamaven/services/IPessoaService.java,d\d\dd28fbddf620047d7e68276913a5f8f28f4312ff
+
+Osrc/main/java/com/github/youssfbr/aulajpamaven/services/impl/PessoaService.java,2\9\297b3a0325992e3868603a399e665d132b2ca57a

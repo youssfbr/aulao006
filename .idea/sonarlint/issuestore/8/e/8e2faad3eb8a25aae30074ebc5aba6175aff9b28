@@ -1,0 +1,14 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(¨ô¢¨ıÿÿÿÿ8ê‚ô•º1
+G	java:S106"+Replace this use of System.out by a logger.(¢°°­8Â¶ô•º1
+L	java:S106"+Replace this use of System.out by a logger.(ÃæÂÔûÿÿÿÿ8Â¶ô•º1
+G	java:S106"+Replace this use of System.out by a logger.(ĞßÕ‹8Â¶ô•º1
+`
+java:S1128">Remove this unused import 'jakarta.persistence.EntityManager'.(·ïŸéúÿÿÿÿ8Ûò•º1
+g
+java:S1128"ERemove this unused import 'jakarta.persistence.EntityManagerFactory'.(‹ ñºûÿÿÿÿ8‘Ûò•º1
+^
+java:S1128	"<Remove this unused import 'jakarta.persistence.Persistence'.(ŸÖ¦µÿÿÿÿÿ8‘Ûò•º1
+h
+java:S1128
+"KRemove this unused import 'org.hibernate.jpa.HibernatePersistenceProvider'.(—èŸŒ8‘Ûò•º1

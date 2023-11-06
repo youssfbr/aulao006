@@ -24,9 +24,18 @@ public class Application implements CommandLineRunner {
         Pessoa p3 = new Pessoa(null, "Joaquim Torres", "joaquim@gmail.com");
         Pessoa p4 = new Pessoa(null, "Ana Maria", "ana@gmail.com");
 
-        System.out.println(p1);
-        System.out.println(p2);
-        System.out.println(p3);
-        System.out.println(p4);
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("com.github.youssfbr.aulajpamaven");
+		EntityManager entityManager = entityManagerFactory.createEntityManager();
+
+        entityManager.getTransaction().begin();
+
+        entityManager.persist(p1);
+        entityManager.persist(p2);
+        entityManager.persist(p3);
+        entityManager.persist(p4);
+
+        entityManager.getTransaction().commit();
+
+        System.out.println("OK");
     }
 }
